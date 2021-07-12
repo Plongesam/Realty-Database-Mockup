@@ -1,0 +1,5 @@
+README:
+
+How to use the jupyter notebook application: load the file in-browser using a jupyter notebook viewer. Each time you wish to connect to the database, you will have to log in by running the first cell. In order to do so, alter the parameters of config to those appropriate for your database. This includes, but is not limited to changing the hostname, port, and database name. From there, if your database is already populated with information, then you may skip running the next two cells and move straight into performing whatever queries you wish. However, if this is a completely fresh database server, it is necessary to run all the cells in the initialization section of the application before proceeding. When finished, the final cell will close your connection to the database, and from there you are free to close the notebook.
+
+In order to perform any given query, you must run the appropriate cell, and provide input when prompted.
